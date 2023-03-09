@@ -1,0 +1,17 @@
+{
+  "name": "yfs",
+  "version": "0.2.0",
+  "description": "a simple virtual filesystem",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "node ./tests/test-runner.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "await-lock": "^2.1.0",
+    "diff": "5.0.0",
+    "md5": "^2.3.0"
+  }
+}
